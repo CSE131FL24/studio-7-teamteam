@@ -16,6 +16,7 @@ public class HockeyTest {
 		        new Hockey("Bob", 9, "Left", 8, 12, 30, 42),
 		        new Hockey("Charlie", 22, "Right", 7, 11, 28, 39)
 		    };
+		System.out.println(players[0].getGoal_cur());
 		output_all(players);
 	}
 

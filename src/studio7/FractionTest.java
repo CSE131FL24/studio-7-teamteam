@@ -43,6 +43,7 @@ public static int gcd(int p, int q) {
 		// TODO Auto-generated method stub
 		Fraction a = new Fraction(5,10);
 		Fraction b = new Fraction(2,3);
+		a.setNumerator(3);
 		System.out.println("Samplify fraction a: " + samplize(a).toString());
 		System.out.println("Add fraction a to b: " + add(a,b));
 		System.out.println("Multiply fraction a to b: " + multiply(a,b));
